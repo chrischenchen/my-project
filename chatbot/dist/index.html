@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Navvy the navigational ChatBot!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- Currently BROKEN!
+Working prototype on meesrutten.me :) -->
+<main class="page__main">
+    <div class="block--background">
+      <div class="chatbot__overview">
+        <ul class="chatlist">
+          <li class="bot__output bot__output--standard">Hey, I'm Navvy!</li>
+          <li class="bot__output bot__output--standard">We have a lot of different courses! Which topic do you want to learn?
+          </li>
+          <li class="bot__output bot__output--standard">
+            <span class="bot__output--second-sentence">make a game or coding?</span>
+            <ul>
+              <li class="input__nested-list"><span class="bot__command">coding</span> </li>
+              <li class="input__nested-list"> <span class="bot__command">make a game</span></li>
+              <!-- <li class="input__nested-list">Maybe I could <span class="bot__command">help</span> (for more instructions)</li> -->
+              <!-- <li class="input__nested-list">Type <span class="bot__command">commands</span> for a list of every command</li> -->
+            </ul>
+            (You can type your choce in the dialoguebox)
+          </li>
+        </ul>
+      </div>
+      <div class="chatbox-area">
+        <form action="" id="chatform">
+            <textarea placeholder="Talk to me!" class="chatbox" name="chatbox" resize: "none" minlength="2"></textarea>
+            <input class="submit-button" type="submit" value="send">
+        </form>
+      </div>
+			    <div class="block--background"></div>
+
+</main>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
