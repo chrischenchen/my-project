@@ -222,17 +222,17 @@ var possibleInput = {
     },
   "make a game" : function(){
     responseText("We have a lot of games you can make by learning to code. Here are some options to check out:");
-    responseText("Adventure games where you go on quests")
-    responseText("Platformer games where you jump, run and collect coins")
-    responseText("Sandbox games where you can build and craft")
+    responseText("<a href='https://www.figma.com/proto/bvyEPq5ZB834NtmlPLquRr/coding-website-for-kids?node-id=229%3A570&scaling=min-zoom'>Adventure games</a> where you go on quests")
+    responseText("<a href='https://www.figma.com/proto/bvyEPq5ZB834NtmlPLquRr/coding-website-for-kids?node-id=229%3A570&scaling=min-zoom'>Platformer games</a> where you jump, run and collect coins")
+    responseText("<a href='https://www.figma.com/proto/bvyEPq5ZB834NtmlPLquRr/coding-website-for-kids?node-id=229%3A570&scaling=min-zoom'>Sandbox games</a> where you can build and craft")
     commandReset(1);
     return
     },
   "coding" : function(){
     responseText("We have several types of code you can learn:");
-    responseText("Learn Scratch<a href='https://twitter.com/meesrttn'>@MeesRttn</a> code which is a really simple type of code to start with and make your own games");
-    responseText("Learn Python<a href='https://twitter.com/meesrttn'>@MeesRttn</a> which is a bit more advanced but you can do loads of cool stuff with it");
-    responseText("Learn Arduino<a href='https://twitter.com/meesrttn'>@MeesRttn</a> for making your own awesome electronic project (maybe your own robot just like me)");
+    responseText("Learn <a href='https://www.figma.com/proto/bvyEPq5ZB834NtmlPLquRr/coding-website-for-kids?node-id=229%3A570&scaling=min-zoom'>scratch</a> code which is a really simple type of code to start with and make your own games");
+    responseText("Learn <a href='https://www.figma.com/proto/bvyEPq5ZB834NtmlPLquRr/coding-website-for-kids?node-id=229%3A570&scaling=min-zoom'>Python</a> which is a bit more advanced but you can do loads of cool stuff with it");
+    responseText("Learn <a href='https://www.figma.com/proto/bvyEPq5ZB834NtmlPLquRr/coding-website-for-kids?node-id=229%3A570&scaling=min-zoom'>Arduino</a> for making your own awesome electronic project (maybe your own robot just like me)");
     commandReset(2);
     return
     },
